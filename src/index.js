@@ -1,22 +1,15 @@
 import './style.css'
-
-// <div class="header">
-// <div class="title">{Restaurant}</div>
-// <div class="links">
-//     <div class="link-1">HOME</div>
-//     <div class="link-2">MENU</div>
-//     <div class="line-3">CONTACT</div>
-// </div>
-// </div>
-// <div class="main"></div>
+import {homePage} from './home';
 
 document.addEventListener('DOMContentLoaded', ()=>{
+    //here goes the page content
     const content = document.querySelector('#content');
+    //Default header of the webpage
     const header = document.createElement('div');
     header.classList.add('header');
     const title = document.createElement('div');
     title.classList.add('title');
-    title.textContent = '{Restaurant}';
+    title.textContent = 'Bistro Bliss';
     const links = document.createElement('div');
     links.classList.add('links');
     const linkOne = document.createElement('div');
@@ -36,9 +29,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     header.appendChild(title);
     header.appendChild(links);
 
-    const main = document.createElement('div');
-    main.classList.add('main');
+    const home = homePage();
 
     content.appendChild(header);
-    content.appendChild(main);
+    content.appendChild(home);
 });
