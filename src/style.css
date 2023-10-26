@@ -35,6 +35,14 @@
     justify-content: space-around;
 }
 
+.header button{
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    width: 4rem;
+}
+
 .home{
     display: grid;
     height: 93.1vh;
