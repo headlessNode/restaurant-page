@@ -1,5 +1,6 @@
 import './style.css'
 import {homePage} from './home';
+import { menuPage } from './menu';
 
 document.addEventListener('DOMContentLoaded', ()=>{
     //here goes the page content
