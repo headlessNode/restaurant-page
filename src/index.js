@@ -101,6 +101,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             }
         }
         else{
+            linkOne.style.borderBottom = bottomBorder;
             const home = homePage();
             pages.appendChild(home);
         }
