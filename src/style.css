@@ -107,7 +107,8 @@
 
 .menu{
 
-    background: beige;
+    background: url(./restaurant.jpg) center center fixed;
+    background-size: cover;
     display: grid;
     height: 93.1vh;
     justify-items: center;
