@@ -1,6 +1,7 @@
 import './style.css'
 import {homePage} from './home';
 import { menuPage } from './menu';
+import { contactPage } from './contact';
 
 document.addEventListener('DOMContentLoaded', ()=>{
     //here goes the page content
